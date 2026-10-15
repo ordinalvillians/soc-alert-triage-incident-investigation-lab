@@ -1,0 +1,22 @@
+======================================
+ SOC ALERT TRIAGE REPORT
+======================================
+
+1. FAILED LOGONS BY ACCOUNT
+--------------------------------------
+admin         5 failures  HIGH REVIEW
+alex          4 failures  HIGH REVIEW
+james         5 failures  HIGH REVIEW
+
+2. ACCOUNTS WITH FAILED LOGONS FOLLOWED BY SUCCESS
+--------------------------------------
+alex         4 prior failures; later success recorded
+
+3. FAILED LOGONS BY SOURCE IP
+--------------------------------------
+10.0.0.25           5 failures
+203.0.113.45        5 failures
+192.168.1.50        4 failures
+
+Triage complete.
+Review priority is a rule-based indicator, not proof of malicious activity.
